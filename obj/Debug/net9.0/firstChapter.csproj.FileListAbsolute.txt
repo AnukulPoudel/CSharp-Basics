@@ -12,3 +12,4 @@
 /home/anukul/Documents/dotNetCodes/exam/firstChapter/obj/Debug/net9.0/firstChapter.pdb
 /home/anukul/Documents/dotNetCodes/exam/firstChapter/obj/Debug/net9.0/firstChapter.genruntimeconfig.cache
 /home/anukul/Documents/dotNetCodes/exam/firstChapter/obj/Debug/net9.0/ref/firstChapter.dll
+/home/anukul/Documents/dotNetCodes/exam/firstChapter/obj/Debug/net9.0/firstChapter.sourcelink.json
