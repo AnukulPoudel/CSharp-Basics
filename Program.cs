@@ -88,11 +88,16 @@
             // obj0.Display();
             // ProgramResult rj = new ProgramResult();
             // rj.Result(8);
-            StringMethods strMethodsObj = new StringMethods();
-            strMethodsObj.SubstringMethod();
-            strMethodsObj.ToLowerMethod();
-            strMethodsObj.ToUpperMethod();
-            strMethodsObj.TrimMethod();
+            // StringMethods strMethodsObj = new StringMethods();
+            // strMethodsObj.SubstringMethod();
+            // strMethodsObj.ToLowerMethod();
+            // strMethodsObj.ToUpperMethod();
+            // strMethodsObj.TrimMethod();
+            Indexer indexer = new Indexer();
+            indexer.name[0] = "Hello ";
+            indexer.name[1] = "Hi";
+            Console.Write(indexer[0]);
+            Console.WriteLine(indexer[1]);
         }
 
     }
