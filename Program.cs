@@ -93,11 +93,21 @@
             // strMethodsObj.ToLowerMethod();
             // strMethodsObj.ToUpperMethod();
             // strMethodsObj.TrimMethod();
-            Indexer indexer = new Indexer();
-            indexer.name[0] = "Hello ";
-            indexer.name[1] = "Hi";
-            Console.Write(indexer[0]);
-            Console.WriteLine(indexer[1]);
+            // Indexer indexer = new Indexer();
+            // indexer.name[0] = "Hello ";
+            // indexer.name[1] = "Hi";
+            // Console.Write(indexer[0]);
+            // Console.WriteLine(indexer[1]);
+            // B b = new B();
+            // b.display();
+            Calculate clc = new Calculate();
+            clc.l = 2;
+            clc.b = 3;
+            int area = clc.CalculateArea();
+            int perimeter = clc.CalculatePerimeter();
+            Console.WriteLine("Area is "+area);
+            Console.WriteLine("Perimeter is "+perimeter);
+
         }
 
     }
