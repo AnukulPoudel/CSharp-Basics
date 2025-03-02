@@ -1,0 +1,14 @@
+/home/anukul/Documents/dotNetCodes/exam/firstChapter/bin/Debug/net9.0/firstChapter
+/home/anukul/Documents/dotNetCodes/exam/firstChapter/bin/Debug/net9.0/firstChapter.deps.json
+/home/anukul/Documents/dotNetCodes/exam/firstChapter/bin/Debug/net9.0/firstChapter.runtimeconfig.json
+/home/anukul/Documents/dotNetCodes/exam/firstChapter/bin/Debug/net9.0/firstChapter.dll
+/home/anukul/Documents/dotNetCodes/exam/firstChapter/bin/Debug/net9.0/firstChapter.pdb
+/home/anukul/Documents/dotNetCodes/exam/firstChapter/obj/Debug/net9.0/firstChapter.GeneratedMSBuildEditorConfig.editorconfig
+/home/anukul/Documents/dotNetCodes/exam/firstChapter/obj/Debug/net9.0/firstChapter.AssemblyInfoInputs.cache
+/home/anukul/Documents/dotNetCodes/exam/firstChapter/obj/Debug/net9.0/firstChapter.AssemblyInfo.cs
+/home/anukul/Documents/dotNetCodes/exam/firstChapter/obj/Debug/net9.0/firstChapter.csproj.CoreCompileInputs.cache
+/home/anukul/Documents/dotNetCodes/exam/firstChapter/obj/Debug/net9.0/firstChapter.dll
+/home/anukul/Documents/dotNetCodes/exam/firstChapter/obj/Debug/net9.0/refint/firstChapter.dll
+/home/anukul/Documents/dotNetCodes/exam/firstChapter/obj/Debug/net9.0/firstChapter.pdb
+/home/anukul/Documents/dotNetCodes/exam/firstChapter/obj/Debug/net9.0/firstChapter.genruntimeconfig.cache
+/home/anukul/Documents/dotNetCodes/exam/firstChapter/obj/Debug/net9.0/ref/firstChapter.dll

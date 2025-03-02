@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EI5cay12X9U=",
+  "success": true,
+  "projectFilePath": "/home/anukul/Documents/dotNetCodes/exam/firstChapter/firstChapter.csproj",
+  "expectedPackageFiles": [
+    "/home/anukul/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.1/microsoft.aspnetcore.app.ref.9.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
