@@ -1,4 +1,6 @@
-﻿namespace Programming
+﻿using System;
+
+namespace Programming
 {
 
     class DefaultConstructor
@@ -63,7 +65,8 @@
     class Program
     {
         // int i = 2;
-        public async static Task Main()
+        // public async static Task Main()
+        public static void Main()
         {
             // DefaultConstructor obj = new DefaultConstructor();
             // Console.WriteLine(i);
@@ -108,8 +111,13 @@
             // Console.WriteLine("Area is "+area);
             // Console.WriteLine("Perimeter is "+perimeter);
             // AsyncAwait aa = new AsyncAwait();
-            int sum = await AsyncAwait.Sum(5,8);
-            Console.WriteLine("The sum is: {0}",sum);
+            // int sum = await AsyncAwait.Sum(5,8);
+            // Console.WriteLine("The sum is: {0}",sum);
+            // NonGenericClass.arrayList();
+            // NonGenericClass.Queue();
+            // NonGenericClass.Dictionary();
+            GenericClass.Queue();
+            GenericClass.Stack();
 
         }
 
