@@ -116,8 +116,10 @@ namespace Programming
             // NonGenericClass.arrayList();
             // NonGenericClass.Queue();
             // NonGenericClass.Dictionary();
-            GenericClass.Queue();
-            GenericClass.Stack();
+            // GenericCollectionsClass.Queue();
+            // GenericCollectionsClass.Stack();
+            GenericClass<int> genericClass = new GenericClass<int>();
+            genericClass
 
         }
 

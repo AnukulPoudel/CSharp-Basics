@@ -1,30 +1,18 @@
 using System.Collections.Generic;
 namespace Programming{
-    class GenericClass{
-        public static void Queue(){
-            Queue<int> queue = new Queue<int>();
-            queue.Enqueue(2);
-            queue.Enqueue(5);
-            queue.Enqueue(3);
-            queue.Enqueue(7);
-            queue.Dequeue();
-            queue.Peek();
+    class GenericClass<T>{
+        static T[] member = new T[4];
+        public static void AddItems(int index, T item){
+            if (index>=4)
+            {
+                member[index] = item;
+            }
         }
-        public static void Stack(){
-            Stack<int> stack = new Stack<int>();
-            stack.Push(2);
-            stack.Pop();
-            stack.Peek();
+        public static void Display(){
+            foreach (var item in member)
+            {
+                Console.WriteLine("{0}", item);
+            }
         }
-        public static void Dictionary(){
-            Dictionary<int, string> dictionary = new Dictionary<int, string>() {
-                {2,"Whatttt!!"}
-            };
-            dictionary.Add(1,"Hello");
-            dictionary.Remove(1);
-            dictionary.Clear();
-
-        }
-
     }
 }
