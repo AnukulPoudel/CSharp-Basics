@@ -62,8 +62,8 @@
 
     class Program
     {
-        int i = 2;
-        static void Main()
+        // int i = 2;
+        public async static Task Main()
         {
             // DefaultConstructor obj = new DefaultConstructor();
             // Console.WriteLine(i);
@@ -100,13 +100,16 @@
             // Console.WriteLine(indexer[1]);
             // B b = new B();
             // b.display();
-            Calculate clc = new Calculate();
-            clc.l = 2;
-            clc.b = 3;
-            int area = clc.CalculateArea();
-            int perimeter = clc.CalculatePerimeter();
-            Console.WriteLine("Area is "+area);
-            Console.WriteLine("Perimeter is "+perimeter);
+            // Calculate clc = new Calculate();
+            // clc.l = 2;
+            // clc.b = 3;
+            // int area = clc.CalculateArea();
+            // int perimeter = clc.CalculatePerimeter();
+            // Console.WriteLine("Area is "+area);
+            // Console.WriteLine("Perimeter is "+perimeter);
+            // AsyncAwait aa = new AsyncAwait();
+            int sum = await AsyncAwait.Sum(5,8);
+            Console.WriteLine("The sum is: {0}",sum);
 
         }
 

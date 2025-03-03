@@ -12,26 +12,31 @@ namespace Programming
     //     }
     // }
 
-    // Multiple Inheritance uisng interface
-    interface CalculateInterface{
-        int CalculatePerimeter();
-        int CalculateArea();
-    }
+    // // Multiple Inheritance uisng interface
+    // interface CalculateInterface{
+    //     int CalculatePerimeter();
+    //     int CalculateArea();
+    // }
 
-    class ReadData{
-        public int l;
-        public int b;
-        public void data(int l, int b){
-            this.l = l;
-            this.b = b;
-        }
-    }
-    class Calculate: ReadData,CalculateInterface{
-        public int CalculateArea(){
-            return l*b;
-        }
-        public int CalculatePerimeter(){
-            return 2*(l+b);
-        }
+    // class ReadData{
+    //     public int l;
+    //     public int b;
+    //     public void data(int l, int b){
+    //         this.l = l;
+    //         this.b = b;
+    //     }
+    // }
+    // class Calculate: ReadData,CalculateInterface{
+    //     public int CalculateArea(){
+    //         return l*b;
+    //     }
+    //     public int CalculatePerimeter(){
+    //         return 2*(l+b);
+    //     }
+    // }
+
+    // Hybrid inheritance
+    interface HybridInheritance{
+        
     }
 }
